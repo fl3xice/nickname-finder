@@ -1,0 +1,52 @@
+.modal-overlay {
+	position: absolute;
+	width: 100%;
+	height: 500vh;
+	left: calc(50% - 100% / 2);
+	top: 0;
+	background: rgba(0, 0, 0, 0.568);
+	overflow: auto;
+}
+
+div {
+	height: 100%;
+	width: 100%;
+}
+
+.modal-content {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	position: absolute;
+	width: 517px;
+	height: 104px;
+	left: calc(50% - 517px / 2);
+	top: 157px;
+	border-radius: 7px;
+	z-index: 100;
+	background: #2e2e2e;
+	width: 517px;
+}
+
+.modal-header {
+	width: auto;
+	height: auto;
+}
+
+.close-btn {
+	display: inline-block;
+	width: auto;
+	height: auto;
+	margin: 24px;
+}
+
+.modal-body > p {
+	font-family: "Anonymous Pro";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: 0.04em;
+	color: #ffffff;
+	margin: 13px 22px;
+}

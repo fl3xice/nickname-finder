@@ -1,0 +1,18 @@
+.App-header > h2 {
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 90px;
+}
+
+p.information-text {
+  font-size: 15px;
+  color: #6F6F6F;
+}
+
+label.information-text {
+  font-size: 15px;
+  color: #6F6F6F;
+  user-select: none;
+}
