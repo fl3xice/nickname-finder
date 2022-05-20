@@ -28,7 +28,7 @@ export class SnoopService {
     again: boolean,
   ): Promise<{ status: string; message: string }> {
     // Check has nickname not have a special characters
-    if (nickname.match(/[^a-zA-Z0-9_]/g)) {
+    if (nickname.match(/[^a-zA-Z0-9_а-яА-Я]/g)) {
       return { status: 'error', message: 'Nickname have a special characters' };
     }
 
