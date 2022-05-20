@@ -65,6 +65,9 @@ const Search = () => {
 					setFailed("");
 					setSearch(true);
 				}
+				if (r.status === "error") {
+					_setFailRequest();
+				}
 			})
 			.catch(() => {
 				_setFailRequest();
