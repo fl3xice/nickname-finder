@@ -13,7 +13,9 @@ class DataSearcher extends Component {
 						this.props.data.map((item, index) => {
 							return (
 								<div key={index} className="rslt">
-									<a href={item.link}>{item.nameService}</a>
+									<a href={item.link} target="_blank">
+										{item.nameService}
+									</a>
 								</div>
 							);
 						})
